@@ -1,5 +1,7 @@
 # InterviewIQ - AI Interview Assistant
 
+**Live Demo:** [https://ai-interview-assistant-cyau.onrender.com/](https://ai-interview-assistant-cyau.onrender.com/)
+
 InterviewIQ is an advanced AI-powered interview preparation platform designed to help users practice and improve their interviewing skills. By leveraging cutting-edge Artificial Intelligence, the platform provides tailored interview questions based on the candidate's resume, desired role, and experience level, followed by real-time evaluations and comprehensive performance reports.
 
 ## 🚀 Features in Detail
