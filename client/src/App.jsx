@@ -9,7 +9,7 @@ import InterviewPage from "./pages/InterviewPage";
 import InterviewHistory from "./pages/InterviewHistory";
 import InterviewReport from "./pages/InterviewReport";
 
-export const ServerUrl = "http://localhost:3000";
+export const ServerUrl = "https://ai-interview-assistant-backend-zwt0.onrender.com";
 
 
 function App() {
