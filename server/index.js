@@ -10,7 +10,7 @@ import interviewRouter from './routes/interviewroute.js';
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://ai-interview-assistant-cyau.onrender.com",
     credentials: true
 }))
 
