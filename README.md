@@ -94,9 +94,6 @@ AI_API_KEY=your_llm_api_key
 Create a `.env` file in the `client` directory:
 ```env
 VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-# Add any other firebase keys required by your config
 ```
 
 ### 3. Run the Application
