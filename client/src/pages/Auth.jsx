@@ -27,6 +27,7 @@ function Auth({ isModel = false }) {
       navigate("/");
     } catch (error) {
       console.error("Google Sign-In Error:", error);
+      alert("Google Sign-In Error: " + (error?.response?.data?.message || error?.message || "Unknown error"));
       dispatch(setUserData(null));
     }
   }
