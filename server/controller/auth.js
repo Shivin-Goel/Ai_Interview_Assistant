@@ -14,8 +14,8 @@ export const googleAuth = async (req, res) => {
         console.log("TOKEN:", token);
         res.cookie("token", token, {
             httpOnly: true,
-            secure: process.env.NODE_ENV === "production",  // Set to true in production (HTTPS)
-            sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+            secure: true,  // Set to true in production (HTTPS)
+            sameSite: "none",
             path: "/",
             maxAge: 7 * 24 * 60 * 60 * 1000 // 7days in milliseconds
         })
