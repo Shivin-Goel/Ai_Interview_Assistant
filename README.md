@@ -8,6 +8,7 @@ InterviewIQ is an advanced AI-powered interview preparation platform designed to
 
 ### 1. AI-Powered Interview Generation
 - **Context-Aware Questions**: Generates exactly 5 interview questions specifically tailored to the user's target role, experience level, selected skills, and past projects.
+- **Voice-Based Interviews & Dual Input Modes**: Features a realistic voice-based interviewer. Users have the flexibility to answer using their microphone (speech-to-text) or via typing, accommodating different practice styles and mimicking live interview scenarios.
 - **Dynamic Difficulty**: Questions progress naturally from easy to hard to simulate a real-life interview curve.
 - **Resume Parsing**: Users can upload their PDF resumes. The backend extracts text using `pdfjs-dist` and uses AI to intelligently structure the candidate's background, ensuring hyper-personalized questions.
 
@@ -45,6 +46,7 @@ The application is built using the **MERN** stack (MongoDB, Express.js, React, N
 - **Animations**: **Framer Motion (`motion`)** extensively used to provide smooth page transitions, micro-interactions, and a premium feel.
 - **Data Visualization**: **Recharts** for plotting score analytics graphs and **React Circular Progressbar** for beautiful score rings.
 - **PDF Generation**: **jsPDF** and **jsPDF-AutoTable** strictly to format and download interview reports locally on the client.
+- **Speech Capabilities**: Natively utilizes the **Web Speech API** (`SpeechRecognition` & `SpeechSynthesis`) for seamless voice interactions, requiring no external dependencies for speech-to-text input or reading questions aloud.
 - **Auth Service**: **Firebase v12** handles robust external OAuth configurations (e.g., Google login).
 - **HTTP Client**: **Axios** tailored to send credentials (cookies) securely to the backend.
 
